@@ -1,0 +1,18 @@
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 1rem !important;
+}
+
+.am-list-body::before {
+    height: 0 !important;
+}
+.am-list-body::after {
+  height: 0 !important;
+}
+
+.am-list-item {
+  padding-left: 0 !important;
+}
